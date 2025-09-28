@@ -1,11 +1,11 @@
-501.b - Informatique Cheat Sheet
+Informatique Cheat Sheet
 ========================
 
 ## I.  Le fonctionnement d'un ordinateur
 
 <br/>
 
-Un ordinateur interprète des commandes faites via un terminal ou une interface graphique,  puis les transmets au composants pour faire les calculs demandé par l'utilisateur•ice.
+Un ordinateur interprète des commandes faites via un terminal ou une interface graphique, puis les transmets au composants pour faire les calculs demandé par l'utilisateur•ice.
 
 <br/>
 
@@ -70,9 +70,9 @@ Un ordinateur interprète des commandes faites via un terminal ou une interface 
 
 ### Le Kernel et les Rings
 
-Un ordinateur interprète des commandes via le kernel (noyau) comme Linux,  XNU (MacOS), ntoskrnl (Windows) pour les convertir en binaire et permettre au composants.
+Un ordinateur interprète des commandes via le kernel (noyau) comme Linux, XNU (MacOS), ntoskrnl (Windows) pour les convertir en binaire et permettre au composants.
 
-On retrouve donc plusieurs niveau de droits dans un ordinateur appelé "RIng" ou "Cercle" en français.
+On retrouve donc plusieurs niveau de droits dans un ordinateur appelé "Ring" ou "Cercle" en français.
 
 ![qownnotes-media-BQrbuz](../media/qownnotes-media-BQrbuz.png)
 
@@ -85,12 +85,12 @@ On retrouve donc plusieurs niveau de droits dans un ordinateur appelé "RIng" ou
 
 ### L'OS
 
-L'O.S.  (Operating System) ou S.E.  (Système d'Exploitation) est un ensemble de logiciels servant à diriger les ressources de l'ordinateur.
+L'O.S. (Operating System) ou S.E. (Système d'Exploitation) est un ensemble de logiciels servant à diriger les ressources de l'ordinateur.
 
 Il en existe plusieurs :
 - Windows
 - MacOS (basé sur OpenBSD)
-- OpenBSD (servant de base à la majorité des O.S.  non Windows ou Linux,  comme les consoles ou même MacOS)
+- OpenBSD (servant de base à la majorité des O.S. non Windows ou Linux, comme les consoles ou même MacOS)
 - Ubuntu (basé sur Linux)
 - ArchLinux (basé sur Linux)
 - Haiku (basé sur OpenBSD)
@@ -98,7 +98,7 @@ Il en existe plusieurs :
 
 <br/>
 
-*Linux n'est pas un os mais un Kernel sur lequel se base des os,  plus souvent appelés "distributions" ou "distros".*
+*Linux n'est pas un os mais un Kernel sur lequel se base des os, plus souvent appelés "distributions" ou "distros".*
 
 <br/>
 
@@ -137,11 +137,11 @@ Les logiciels "GUI" (graphical user interface) ont une interface graphiques.
 
 ### Open-Source FOSS etc.
 
-Les logiciels peuvent appartenir à des sociétés qui mettent un brevet sur leurs algorithmes (seulement aux Etats-Unis,  en Europe un algorithme ne peux pas être copyright,  les entreprises bloquent l'accès derrière une interface graphique ce qui peut-être copyright),  mais ce n'est pas obligatoire.
+Les logiciels peuvent appartenir à des sociétés qui mettent un brevet sur leurs algorithmes (seulement aux Etats-Unis,  en Europe un algorithme ne peux pas être copyright, les entreprises bloquent l'accès derrière une interface graphique ce qui peut-être copyright),  mais ce n'est pas obligatoire.
 
-Au début de l'informatique la majorité des logiciels étaient dit Open-Source ou Code Source Ouvert qui permettent à chacun de lire le code source avant qu'il soit compilé et le modifié à loisir pour soit en faire un fork (copie d'un logiciel pour en faire autre chose),  ou simplement participer à l'amélioration du code.  Aujourd'hui énormément de logiciels sont encore open-source,  et d'ailleurs la plupars des logiciels ont au moins une partie de leur codes qui se sert d'un ou plusieurs morceaux de code open-source.
+Au début de l'informatique la majorité des logiciels étaient dit Open-Source ou Code Source Ouvert qui permettent à chacun de lire le code source avant qu'il soit compilé et le modifié à loisir pour soit en faire un fork (copie d'un logiciel pour en faire autre chose),  ou simplement participer à l'amélioration du code. Aujourd'hui énormément de logiciels sont encore open-source, et d'ailleurs la plupars des logiciels ont au moins une partie de leur codes qui se sert d'un ou plusieurs morceaux de code open-source.
 
-Les logiciels libres sont eux des logiciels open-source mais vous êtes obligés d'informer que vous avez utiliser le code et garder la gratuité du logiciel,  par exemple Linux est un kernel libre,  n'importe qui peut s'en servir et le redistribuer mais la personne doit informer qu'il se base sur linux et garder son modèle gratuit.
+Les logiciels libres sont eux des logiciels open-source mais vous êtes obligés d'informer que vous avez utiliser le code et garder la gratuité du logiciel, par exemple Linux est un kernel libre, n'importe qui peut s'en servir et le redistribuer mais la personne doit informer qu'il se base sur linux et garder son modèle gratuit.
 
 FOSS : signifie "Free and Open-Source Software".
 
@@ -157,6 +157,6 @@ Ici se trouvent les informations que je ne savais pas comment classifier.
 
 ### Git 
 
-Git est un logiciel de versioning,   c'est-à-dire qu'il permet de stocker un ensemble de fichiers en conservant la chronologie de toutes les modifications qui ont été effectuées dessus.
+Git est un logiciel de versioning, c'est-à-dire qu'il permet de stocker un ensemble de fichiers en conservant la chronologie de toutes les modifications qui ont été effectuées dessus.
 
 Soit si Isham à fait une modification sur le code il peut ajouter une nouvelle version sur le stockage sans supprimé les anciennes ce qui permet de revenir en arrière pour que par exemple Lize puisse revenir sur la version précédente si le code d'Isham casse l'ensemble.
